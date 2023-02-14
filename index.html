@@ -11,6 +11,19 @@
 			content="width=device-width, initial-scale=1.0"
 		/>
 		<link
+			rel="preconnect"
+			href="https://fonts.googleapis.com"
+		/>
+		<link
+			rel="preconnect"
+			href="https://fonts.gstatic.com"
+			crossorigin
+		/>
+		<link
+			href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&family=Source+Sans+Pro:wght@400;600;700&display=swap"
+			rel="stylesheet"
+		/>
+		<link
 			rel="stylesheet"
 			href="style.css"
 		/>
@@ -18,8 +31,29 @@
 	</head>
 
 	<body>
-		<h1>Homepage</h1>
-		<a href="pages/aboutme.html">About Me</a>
-		<a href="pages/article.html">Article</a>
+		<header>
+			<nav>
+				<div class="logo_container">
+					<img
+						src="images/logo.png"
+						alt="My learning journal logo"
+						width="34px"
+					/>
+					<p>My learning journal</p>
+				</div>
+				<ul class="flex flex_row">
+					<li><a href="index.html">HOME</a></li>
+					<li><a href="pages/aboutme.html">ABOUT ME</a></li>
+				</ul>
+			</nav>
+		</header>
+
+		<main>
+			<div class="main_article">
+				<a href="pages/article.html">My new journey as a bootcamp student.</a>
+			</div>
+		</main>
+
+		<footer></footer>
 	</body>
 </html>
